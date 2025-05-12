@@ -2721,6 +2721,7 @@ input, select, textarea {
 			border: solid 1px;
 			border-left: 0;
 			border-right: 0;
+			text-align: left;
 		}
 
 		table td {
@@ -3411,7 +3412,7 @@ input, select, textarea {
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #8cc9f0;
+				background-color: #f5b96a;
 				color: #ffffff !important;
 				box-shadow: none;
 			}
@@ -3421,7 +3422,7 @@ input, select, textarea {
 				#main input[type="button"].primary:hover,
 				#main button.primary:hover,
 				#main .button.primary:hover {
-					background-color: #9acff2;
+					background-color: #f4cc97;
 				}
 
 				#main input[type="submit"].primary:active,
