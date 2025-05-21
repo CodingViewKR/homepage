@@ -3743,6 +3743,14 @@ input, select, textarea {
 				padding: 3em 2em 1em 2em ;
 			}
 
+			.mobile-left-align {
+    			text-align: left !important;
+  			}
+
+			  .pc-left-mobile-center {
+    			text-align: center;
+  			}
+
 		}
 
 		@media screen and (max-width: 480px) {
