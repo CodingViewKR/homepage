@@ -1957,9 +1957,10 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cc9f0;
+			background-color: #f8bc6d;
 			color: #ffffff !important;
 			box-shadow: none;
+			font-weight: 500;
 		}
 
 			input[type="submit"].primary:hover,
@@ -1967,7 +1968,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #9acff2;
+				background-color: #face94 !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -1975,7 +1976,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #7ec3ee;
+				background-color: #f8bc6d !important;
 			}
 
 			input[type="submit"].primary.icon:before,
@@ -1985,6 +1986,7 @@ input, select, textarea {
 			.button.primary.icon:before {
 				color: #ffffff !important;
 			}
+
 
 /* Form */
 
@@ -2291,23 +2293,23 @@ input, select, textarea {
 			}
 
 		.icon.style1 {
-			color: #efa8b0;
+			color: #343f47;
 		}
 
 		.icon.style2 {
-			color: #c79cc8;
+			color: #3b464d;
 		}
 
 		.icon.style3 {
-			color: #a89cc8;
+			color: #51504d;
 		}
 
 		.icon.style4 {
-			color: #9bb2e1;
+			color: #977c68;
 		}
 
 		.icon.style5 {
-			color: #8cc9f0;
+			color: #eead7a;
 		}
 
 		@media screen and (max-width: 1680px) {
@@ -2885,23 +2887,23 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #343f47;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #3b464d;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #51504d;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #977c68;
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #eead7a;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3122,7 +3124,7 @@ input, select, textarea {
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 75%;
+					max-width: 10%;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3412,9 +3414,10 @@ input, select, textarea {
 			#main input[type="button"].primary,
 			#main button.primary,
 			#main .button.primary {
-				background-color: #f5b96a;
+				background-color: #f8bc6d;
 				color: #ffffff !important;
 				box-shadow: none;
+				font-weight: 500;
 			}
 
 				#main input[type="submit"].primary:hover,
@@ -3422,7 +3425,7 @@ input, select, textarea {
 				#main input[type="button"].primary:hover,
 				#main button.primary:hover,
 				#main .button.primary:hover {
-					background-color: #f4cc97;
+					background-color: #face94 !important;
 				}
 
 				#main input[type="submit"].primary:active,
@@ -3430,7 +3433,7 @@ input, select, textarea {
 				#main input[type="button"].primary:active,
 				#main button.primary:active,
 				#main .button.primary:active {
-					background-color: #7ec3ee;
+					background-color: #face94 !important;
 				}
 
 				#main input[type="submit"].primary.icon:before,
