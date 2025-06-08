@@ -10,11 +10,10 @@
   <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 
   <script>
-    // 현재 URL이 루트(/)일 때만 실행
-    if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
-      const userLang = navigator.language || navigator.userLanguage;
-      const redirectLang = userLang.startsWith('ko') ? 'ko' : 'ko'; // 추후 'en'으로도 확장 가능
-      window.location.replace(`/${redirectLang}/`);
+    // 루트(/homepage/) 또는 /homepage/index.html 일 때 리디렉션 실행
+    const path = window.location.pathname;
+    if (path === '/homepage/' || path === '/homepage/index.html') {
+      window.location.replace('/homepage/ko/');
     }
   </script>
 </head>
